@@ -9,7 +9,18 @@ public class TesteReferencias {
 		System.out.println("Saldo primeira conta: " + primeiraConta.saldo);
 		
 		Conta segundaConta = primeiraConta;
+		System.out.println(segundaConta.saldo);
 		
+		segundaConta.saldo += 100;
+		System.out.println(segundaConta.saldo);
+		
+		System.out.println(primeiraConta.saldo);
+		
+		if (primeiraConta == segundaConta) {
+			System.out.println("São iguais");
+		}
+		
+		System.out.println(primeiraConta);
 		System.out.println(segundaConta);
 	}
 
