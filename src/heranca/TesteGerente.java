@@ -14,6 +14,8 @@ public class TesteGerente {
 		
 		g1.setSenha(2222);
 		System.out.println(g1.autentica(2222));
+		System.out.println(g1.getBonificacao());
+	
 	}
 
 }

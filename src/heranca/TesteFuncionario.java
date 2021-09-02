@@ -10,6 +10,7 @@ public class TesteFuncionario {
 		
 		System.out.println(peterson.getNome());
 		System.out.println(peterson.getBonificacao());
+		
 	}
 
 }
