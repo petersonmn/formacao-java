@@ -3,7 +3,7 @@ package bytebank.encapsulado;
 public class TesteGetESet {
 
 	public static void main(String[] args) {
-		Conta conta = new Conta();
+		Conta conta = new Conta(250, 25);
 		conta.setNumero(1337);
 		System.out.println(conta.getNumero());
 		
