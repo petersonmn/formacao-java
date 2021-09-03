@@ -3,7 +3,7 @@ package heranca;
 public class TesteFuncionario {
 	public static void main(String[] args) {
 		
-		Funcionario peterson = new Funcionario();
+		Gerente peterson = new Gerente();
 		peterson.setNome("Peterson Martins");
 		peterson.setCpf("999.999.999-99");
 		peterson.setSalario(2600.00);
