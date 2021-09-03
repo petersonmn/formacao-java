@@ -6,8 +6,8 @@ public class TestaValores {
 		
 		System.out.println(conta.getAgencia());
 		
-		Conta conta2 = new Conta(2025, 500);
-		Conta conta3 = new Conta(2025, 501);
+//		Conta conta2 = new Conta(2025, 500);
+//		Conta conta3 = new Conta(2025, 501);
 		
 		System.out.println(Conta.getTotal());
 
