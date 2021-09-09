@@ -1,4 +1,4 @@
-package bytebank.herdado;
+package bytebank.herdado.conta;
 
 public class TesteContas {
 

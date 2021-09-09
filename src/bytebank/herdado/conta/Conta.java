@@ -1,4 +1,4 @@
-package bytebank.herdado;
+package bytebank.herdado.conta;
 
 public abstract class Conta {
 	protected double saldo;
@@ -9,10 +9,8 @@ public abstract class Conta {
 	
 	public Conta(int agencia, int numero) {
 		Conta.total++;
-//		System.out.println(" O total é: " +Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
-//		System.out.println("Estou criando uma conta");
 	}
 	
 	public Conta(int numero) {
