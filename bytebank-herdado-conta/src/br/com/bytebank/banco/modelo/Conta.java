@@ -14,6 +14,7 @@ public abstract class Conta {
     private int numero;
     private Cliente titular;
     private static int total = 0;
+
     
     /**
      * Construtor para iniciar o objeto Conta
@@ -92,5 +93,10 @@ public abstract class Conta {
     public static int getTotal(){
         return Conta.total;
     }
+    
+    @Override
+	public String toString() {
+		return "Numero: " + this.getNumero() + "\nAgência: " + this.getAgencia();
+	}
 
 }
